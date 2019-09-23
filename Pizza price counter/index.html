@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza price counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div-body">
+        <h1>Pizza</h1>
+
+        <h3>Size</h3>
+        <div class="radio">
+            <input type="radio" name="pizza-size" value="3"> Small <br>
+            <input type="radio" name="pizza-size" value="5"> Medium <br>
+            <input type="radio" name="pizza-size" value="7"> Large <br>
+        </div>
+
+        <h3>Toppings</h3>
+        <div class="checkbox">
+            <input type="checkbox" id="topping-extra-cheese" value="1">Extra Cheese <br>
+            <input type="checkbox" id="topping-kebab" value="3">Kebab <br>
+            <input type="checkbox" id="topping-pepperoni" value="1.5">Pepperoni <br>
+            <input type="checkbox" id="topping-pineapple" value="0.5">Pineapple<br>
+            <input type="checkbox" id="topping-red-onion" value="0.4">Red onion<br>
+        </div>
+        <p>
+            <button type="button" id="button-calculate">Calculate Price</button>
+        </p>
+
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
