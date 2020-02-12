@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+h3{
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    border: solid #000 2px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 10px;
+}
+
+div {
+    justify-content: center;
+    display: absolute;
+    border: solid 2px transparent;
+    text-align: center;
+    align-content: space-between;
+    padding: 5px;
+    margin: 10px;
+}

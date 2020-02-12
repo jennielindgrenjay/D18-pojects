@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align:center;
+    font-size: 25px;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    background-color:rgb(49, 194, 238);
+}
+.centered{
+    margin-left:auto;
+    margin-right:auto;
+}
+#button{
+    padding-top:50px;
+    width:650px;
+    height:200px;
+    display:table;
+    
+}
+#buttonholder{
+    display:table-cell;
+    vertical-align:middle;
+    
+}
+#thebutton:hover{
+    cursor:pointer;
+}
+.buttons:hover{
+    cursor:pointer;
+}
+#talk{
+    padding-top:25px;
+    font-weight:bold;
+    font-size:33px;
+}
+
+#funky{
+    position:absolute;
+}
+
+#funky img{
+    position:absolute;
+}
+
+#funky1{ left:-234px; top: -96px; height: 50px; width: 50px; }
+#funky2{ left:-188px; top: -69px; height:100px; width:100px; }
+#funky3{ left: -80px; top:  15px; height: 60px; width: 60px; }
+#funky4{ left: 315px; top:  31px; height: 60px; width: 60px; }
+#funky5{ left:-201px; top:  66px; height: 75px; width: 75px; }
+#funky6{ left: -33px; top: -92px; height: 75px; width: 75px; }
+#funky7{ left:  50px; top: -50px; height: 40px; width: 40px; }
+#funky8{ left:  85px; top: -97px; height: 50px; width: 50px; }
+#funky9{ left: 119px; top: -35px; height: 80px; width: 80px; }
+#funky10{left: 185px; top: -83px; height: 50px; width: 50px; }
+#funky11{left: 257px; top: -82px; height:110px; width:110px; }
+#funky12{left: 220px; top:  10px; height: 50px; width: 50px; }
+#funky13{left: 168px; top:  64px; height: 65px; width: 65px; }
+#funky14{left: 258px; top:  71px; height: 50px; width: 50px; }
+#funky15{z-index:1; }

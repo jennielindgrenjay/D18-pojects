@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="text"></div>
+<br>
+<div id="result"></div>
+<br>
+<div id="author"></div>
+
+<script>
+    let url = "http://quotes.rest/qod.json";
+$.getJSON(url, function (data){
+    console.log(data.contents.quotes[0].quote);
+    console.log(data.contents.quotes[0].author);
+    console.log(data.contents.quotes[0].title);
+
+    document.getElementById("result").innerHTML = data.contents.quotes[0].quote;
+    document.getElementById("author").innerHTML = data.contents.quotes[0].author;
+    document.getElementById("text").innerHTML = data.contents.quotes[0].title;
+
+})
+</script>
+
+</body>
+</html>
